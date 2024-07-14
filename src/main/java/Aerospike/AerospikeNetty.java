@@ -20,34 +20,18 @@ import io.netty.channel.nio.NioEventLoopGroup;
  * @author pc
  */
 public class AerospikeNetty {
+
     public static void main(String[] args) {
         EventPolicy eventPolicy = new EventPolicy();
-
-// Create 4 Netty event loops using the Netty API.
-EventLoopGroup group = new NioEventLoopGroup(4);
-
-// Create Aerospike compatibile wrapper of Netty event loops.
-EventLoops eventLoops = new NettyEventLoops(eventPolicy, group);
-
+        EventLoopGroup group = new NioEventLoopGroup(4);
+        EventLoops eventLoops = new NettyEventLoops(eventPolicy, group);
         ClientPolicy clientPolicy = new ClientPolicy();
         clientPolicy.eventLoops = eventLoops;
-
-
         AerospikeClient client = new AerospikeClient(clientPolicy, "127.0.0.1", 3000);
-
-
         WritePolicy writePolicy = new WritePolicy();
-
-       
         Key key = new Key("test", "demo", "key1");
         Bin bin = new Bin("name", "John Doe");
-
-        
         client.put(writePolicy, key, bin);
-
-        
-
-
         client.close();
         eventLoops.close();
         group.shutdownGracefully();

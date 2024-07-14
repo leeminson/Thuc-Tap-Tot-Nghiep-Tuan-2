@@ -1,3 +1,4 @@
-AerospikeNio.class
 com\ptit\thuctaptotnghieptuan2\ThucTapTotNghiepTuan2.class
+Aerospike\Scan.class
 Aerospike\AerospikeNetty.class
+Aerospike\AerospikeNio.class
