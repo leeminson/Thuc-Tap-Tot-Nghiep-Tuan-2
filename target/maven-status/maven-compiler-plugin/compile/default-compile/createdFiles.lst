@@ -13,6 +13,7 @@ Hbase\ListTable.class
 Hbase\ScanAndPrefixFilter.class
 Hbase\ScanAndSingleColumnValueFilter.class
 Hbase\TTL.class
+Hbase\ScanAndPageFilter.class
 Hbase\AlterAddcColumnFamilyTable.class
 Hbase\DropTable.class
 Hbase\ReadData.class

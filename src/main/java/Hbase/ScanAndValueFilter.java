@@ -21,20 +21,12 @@ public class ScanAndValueFilter {
 
         try (Connection connection = ConnectionFactory.createConnection(config);
              Table table = connection.getTable(TableName.valueOf("test11"))) {
-
-            // Tạo đối tượng Scan
             Scan scan = new Scan();
-
-            // Thêm ValueFilter để chỉ quét những ô có giá trị bằng "some_value"
             ValueFilter valueFilter = new ValueFilter(
                     CompareOperator.EQUAL,
                     new BinaryComparator(Bytes.toBytes("Son"))
             );
-
-            // Đặt filter cho Scan
             scan.setFilter(valueFilter);
-
-            // Thực hiện Scan
             try (ResultScanner scanner = table.getScanner(scan)) {
                 for (Result result : scanner) {
                     byte[] row = result.getRow();
