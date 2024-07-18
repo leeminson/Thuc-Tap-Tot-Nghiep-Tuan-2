@@ -7,6 +7,7 @@ Hbase\ScanAndQualifierFilter.class
 Hbase\ScanAndValueFilter.class
 Aerospike\AerospikeNio.class
 Hbase\CreateTable.class
+Hbase\ScanAndRowFilter.class
 Hbase\AlterDeleteColumnFamilyTable.class
 Hbase\DisableTable.class
 Hbase\ListTable.class
