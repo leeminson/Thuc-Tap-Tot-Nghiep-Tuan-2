@@ -5,10 +5,13 @@ Hbase\EnableTable.class
 Hbase\PutData.class
 Hbase\ScanAndQualifierFilter.class
 Hbase\ScanAndValueFilter.class
+Kafka\KafkaProduceMsg.class
 Aerospike\AerospikeNio.class
 Hbase\CreateTable.class
 Hbase\ScanAndRowFilter.class
+Kafka\CreateKafkaTopic.class
 Hbase\AlterDeleteColumnFamilyTable.class
+Kafka\KafkaConsumerMsg.class
 Hbase\DisableTable.class
 Hbase\ListTable.class
 Hbase\ScanAndPrefixFilter.class

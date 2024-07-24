@@ -1,5 +1,6 @@
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\TTL.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\ReadData.java
+C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Kafka\CreateKafkaTopic.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\DisableTable.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\DropTable.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\ScanAndQualifierFilter.java
@@ -12,6 +13,8 @@ C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Aerospike\AerospikeNetty.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\AlterAddcColumnFamilyTable.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\ListTable.java
+C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Kafka\KafkaConsumerMsg.java
+C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Kafka\KafkaProduceMsg.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\DeleteData.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\ScanAndSingleColumnValueFilter.java
 C:\Users\pc\Documents\NetBeansProjects\ThucTapTotNghiepTuan2\src\main\java\Hbase\ScanAndValueFilter.java
